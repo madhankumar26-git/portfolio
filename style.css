@@ -1,0 +1,158 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: arial,sans-serif;
+}
+nav{
+    background-image: url("page 1.jpg");
+    height: 770px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.logo{
+    color: rgb(14, 13, 13);
+    text-shadow: 2px 2px 4px(0,0,0,0.4);
+    font-size: 35px;
+    text-align: center;
+    transform: translateY(205px);
+    width: 100%;
+}
+nav ul{
+    list-style:none;
+    margin-right: 100px;
+    display: flex;
+    text-shadow: 3px 3px 8px ;
+   
+}
+nav ul li{
+    margin-left:20px;
+    transform: translateY(-60px);
+}
+nav ul li a{
+    color: blanchedalmond;
+    text-decoration: none;
+    
+}
+.nav-container {
+    display: flex;
+    justify-content: center;  /* horizontal center */
+    align-items: center; 
+    transform: translateY(250px);     /* vertical center */
+}
+
+.nav-imge {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* Basic reset */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Common section style */
+.section {
+    padding: 50px;
+    text-align: center;
+}
+
+/* HOME SECTION */
+.home {
+    background-color: #222;
+    color: white;
+    height: 100vh;
+    padding-top: 150px;
+}
+
+.home h1 {
+    font-size: 45px;
+    margin-bottom: 110px;
+}
+
+.home h1 span {
+    color: orange;
+}
+
+.home h3 {
+    font-size: 36px;
+    margin-bottom: 8px;
+}
+
+.home p {
+    font-size: 36px;
+}
+
+/* ABOUT SECTION */
+#about {
+    background-color: whitesmoke;
+}
+
+#about h2 {
+    font-size: 28px;
+    margin-bottom: 600px;
+}
+
+#about p {
+    font-size: 30px;
+    transform: translateY(-400px);
+}
+#skills{
+    background-color: #fff3e0;
+}
+
+#skills h2 {
+    font-size: 28px;
+    margin-bottom: 70px;;
+}
+
+/* Make skills appear as a vertical list */
+.skill {
+    background-color: #ddd;
+    display: block;     /* display vertically, one per line */
+    padding: 8px 15px;
+    margin: 30px auto;  /* center horizontally */
+    border-radius: 5px;
+    width: 200px;       /* fixed width for uniform look */
+    text-align: center;
+    
+}
+
+
+/* PROJECTS SECTION */
+#projects h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.project {
+    background-color: #f2f2f2;
+    margin: 15px auto;
+    padding: 15px;
+    width: 80%;
+}
+
+/* CONTACT SECTION */
+.contact {
+    background-color: #222;
+    color: white;
+}
+
+.contact h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+/* FOOTER */
+footer {
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+} 
